@@ -16,10 +16,11 @@ header nav {
 	margin: auto;
 	width:1400px;
 	max-width:1800px;
+	left: 3%;
 	margin: auto;
 	background:#ffffff;
     display: table;
-   display: table-cell;
+    display: table-cell;
 }
  
 
