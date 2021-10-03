@@ -8,17 +8,28 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/coment-box.css">
     <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script defer src="https://kit.fontawesome.com/5b0f61e452.js" crossorigin="anonymous"></script>
+    <script defer src="js/bars.js"></script>
     <title>Producto</title>
 </head>
 
 <body>
+    <div class="contenedor">
     <header>
         <div class="logo"></div>
         <nav class="nav-bar">
-            <ul>
-                <li class="menu"><a class="menu-item" href="#">Inicio</a></li>
-                <li class="menu"><a class="menu-item" href="/login">login</a></li>
+            <button class="toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav_menu">
+                <button class="toggle1">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <li class="menu"><a class="menu-item" href="index.html">Inicio</a></li>
+                <li class="menu"><a class="menu-item" href="login.html">Iniciar sesión</a></li>
                 <li class="menu"><a class="menu-item" href="#">contactenos </a></li>
+                    
             </ul>
             <form class="form-log" action="" method="get">
                 <label for="search"></label>
@@ -37,11 +48,11 @@
             <div class="relate-product" id="relate-product">
                 <h3>productos relacionados</h3><br>
                 <div class="rel-pro">
-                    <h4>preducto 1</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
+                    <h4>producto 1</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
                 <div class="rel-pro">
-                    <h4>preducto 2</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
+                    <h4>producto 2</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
                 <div class="rel-pro">
-                    <h4>preducto 3</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
+                    <h4>producto 3</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
             </div>
         </section>
 
@@ -90,6 +101,9 @@
             </form>
         </aside>
     </main>
+    <footer>
+        <h3>Copyright © 2021 <a href="index.html">Duun Brothers Coffee</a>/ <a href="DMCA.html"> DMCA</a></h3>
+    </footer>
 
 </body>
 

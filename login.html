@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script defer src="https://kit.fontawesome.com/5b0f61e452.js" crossorigin="anonymous"></script>
+    <script defer src="js/bars.js"></script>
     <title>login</title>
 </head>
 
@@ -13,10 +16,17 @@
     <header>
         <div class="logo"></div>
         <nav class="nav-bar">
-            <ul>
-                <li class="menu"><a class="menu-item" href="#">Inicio</a></li>
-                <li class="menu"><a class="menu-item" href="#">Login</a></li>
+            <button class="toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav_menu">
+                <button class="toggle1">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <li class="menu"><a class="menu-item" href="index.html">Inicio</a></li>
+                <li class="menu"><a class="menu-item" href="#">Iniciar sesión</a></li>
                 <li class="menu"><a class="menu-item" href="#">contactenos </a></li>
+                    
             </ul>
             <form class="form-log" action="" method="get">
                 <label for="search"></label>
@@ -25,7 +35,7 @@
             </form>
         </nav>
     </header>
-    <main class="fondo">
+    <main class="wrapper">
         <form action="" method="post" class="log-in">
             <div class="form-logo"></div>
             <h2>login</h2>
@@ -37,8 +47,13 @@
             <input type="button" value="Entrar" id="entrar" class="entrar"><br>
             <p>¿No tienes Cuenta? <a class="hv" href="#" title="go to registrar">Registrate</a></p><br>
         </form>
+        <div class="fondo"></div>
 
     </main>
+
+    <footer>
+        <h3>Copyright © 2021 <a href="index.html">Duun Brothers Coffee</a>/ <a href="DMCA.html"> DMCA</a></h3>
+    </footer>
 </body>
 
 </html>
